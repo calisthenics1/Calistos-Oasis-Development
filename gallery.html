@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Calistos Oasis Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo-wrap" href="index.html">
+        <div class="logo-text-wrap">
+          <div class="logo-name">Calistos Oasis</div>
+          <div class="logo-tagline">Development NGO</div>
+        </div>
+      </a>
+
+      <input type="checkbox" id="navToggle" class="nav-toggle-checkbox" />
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="donate.html" class="nav-donate-btn">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="navToggle" class="hamburger" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <p class="section-label">Visual Story</p>
+      <h1 class="page-hero-title">Gallery</h1>
+      <p class="page-hero-sub">A glimpse into the communities, projects, and people we serve.</p>
+    </div>
+
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-grid">
+          <div class="gallery-item g1 wide tall">
+            <img src="images/bhole.webp" alt="Borehole commissioning, Volta North" loading="lazy" />
+            <div class="gallery-overlay">Borehole Commissioning — Volta North, 2024</div>
+          </div>
+          <div class="gallery-item g2">
+            <img src="images/women.webp" alt="Women's Water Committee Training" loading="lazy" />
+            <div class="gallery-overlay">Women's Water Committee Training</div>
+          </div>
+          <div class="gallery-item g3">
+            <img src="images/scholol.webp" alt="School WASH block" loading="lazy" />
+            <div class="gallery-overlay">New School WASH Block — Western Region</div>
+          </div>
+          <div class="gallery-item g4 wide">
+            <img src="images/campaingn.webp" alt="Handwashing campaign" loading="lazy" />
+            <div class="gallery-overlay">Community Handwashing Campaign — Ashanti 2023</div>
+          </div>
+          <div class="gallery-item g5">
+            <img src="images/solar.webp" alt="Solar pump installation" loading="lazy" />
+            <div class="gallery-overlay">Solar Pump Installation — Northern Region</div>
+          </div>
+          <div class="gallery-item g6">
+            <img src="images/team.webp" alt="Water quality testing in field lab" loading="lazy" />
+            <div class="gallery-overlay">Water Quality Testing — Field Lab</div>
+          </div>
+          <div class="gallery-item g7">
+            <img src="images/install.webp" alt="Engineering team site survey" loading="lazy" />
+            <div class="gallery-overlay">Engineering Team — Site Survey</div>
+          </div>
+          <div class="gallery-item g8">
+            <img src="images/grad.webp" alt="Youth ambassadors graduation" loading="lazy" />
+            <div class="gallery-overlay">Youth Ambassadors Graduation Ceremony</div>
+          </div>
+          <div class="gallery-item g9 wide">
+            <img src="images/colab.webp" alt="Partnership signing with UNICEF Ghana" loading="lazy" />
+            <div class="gallery-overlay">Partnership Signing — UNICEF Ghana, 2025</div>
+          </div>
+        </div>
+        <p style="text-align:center; color:var(--muted); font-size:0.82rem; margin-top:24px;">All photos are property of Calistos Oasis Development.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-name" style="color:var(--white);">Calistos Oasis</div>
+          <p>A Ghanaian NGO delivering clean water, sanitation, and hygiene education to underserved communities since 2013.</p>
+          <div class="social-links">
+            <a class="social-link" href="#" title="Facebook">f</a>
+            <a class="social-link" href="#" title="Twitter / X">X</a>
+            <a class="social-link" href="#" title="Instagram">ig</a>
+            <a class="social-link" href="#" title="LinkedIn">in</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get Involved</h5>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li>Kwabenya Abuom Junction, Accra</li>
+            <li>+233 50 925 4523</li>
+            <li>info@calistosoasis.org</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Calistos Oasis Development NGO. All rights reserved.</span>
+        <span>Built with care for clean water for all.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
