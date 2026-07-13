@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate & Support Us | Calistos Oasis Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo-wrap" href="index.html">
+        <div class="logo-text-wrap">
+          <div class="logo-name">Calistos Oasis</div>
+          <div class="logo-tagline">Development NGO</div>
+        </div>
+      </a>
+
+      <input type="checkbox" id="navToggle" class="nav-toggle-checkbox" />
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="donate.html" class="active nav-donate-btn">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="navToggle" class="hamburger" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <p class="section-label">Make a Difference</p>
+      <h1 class="page-hero-title">Donate &amp; Support Us</h1>
+      <p class="page-hero-sub">Your gift is a water point. Your water point is a life changed forever.</p>
+    </div>
+
+    <section class="donate-why">
+      <div class="donate-why-grid">
+        <div>
+          <p class="section-label">Why Give</p>
+          <h2 class="section-title">Every Cedi Flows Far</h2>
+          <p class="section-body">100% of public donations go directly to project delivery. Our operational costs are covered by institutional grants, so your gift is deployed with zero administrative dilution.</p>
+
+          <div class="impact-reasons">
+            <div class="reason-item">
+              <div class="reason-icon">💧</div>
+              <div class="reason-text">
+                <h4>GH₵ 50 — Treats a family's water supply for one year</h4>
+                <p>Covers water treatment tablets and education materials for a household of five.</p>
+              </div>
+            </div>
+            <div class="reason-item">
+              <div class="reason-icon">🚿</div>
+              <div class="reason-text">
+                <h4>GH₵ 500 — Installs a handwashing station</h4>
+                <p>A tippy-tap station at a school or clinic, complete with soap and hygiene signage.</p>
+              </div>
+            </div>
+            <div class="reason-item">
+              <div class="reason-icon">☀️</div>
+              <div class="reason-text">
+                <h4>GH₵ 5,000 — Powers a borehole with solar</h4>
+                <p>Solar panel array, submersible pump, and control panel — zero fuel cost forever.</p>
+              </div>
+            </div>
+            <div class="reason-item">
+              <div class="reason-icon">🌍</div>
+              <div class="reason-text">
+                <h4>GH₵ 25,000 — Funds a full community WASH program</h4>
+                <p>From site survey to commissioning, covering drilling, infrastructure, and two-year support.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="impact-table-wrap" style="margin-top:36px;">
+            <table>
+              <thead>
+                <tr>
+                  <th>Donation Amount</th>
+                  <th>Impact Equivalent</th>
+                  <th>Beneficiaries</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>GH₵ 50</td><td>Water treatment — 1 household, 1 year</td><td>5 people</td></tr>
+                <tr><td>GH₵ 200</td><td>Hygiene training session</td><td>30 people</td></tr>
+                <tr><td>GH₵ 500</td><td>Handwashing station installation</td><td>150 pupils</td></tr>
+                <tr><td>GH₵ 2,000</td><td>School toilet block (2 stalls)</td><td>400 pupils</td></tr>
+                <tr><td>GH₵ 5,000</td><td>Solar pump retrofit — 1 borehole</td><td>300 people</td></tr>
+                <tr><td>GH₵ 25,000</td><td>Full community WASH programme</td><td>1,200+ people</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h3>Make a Donation</h3>
+          <form action="#" method="get">
+            <div class="form-group">
+              <label>Select Amount (GH₵)</label>
+              <div class="donate-amounts">
+                <input type="radio" class="amt-radio" name="amt" id="amt50" value="50" checked />
+                <label class="amt-btn" for="amt50">50</label>
+
+                <input type="radio" class="amt-radio" name="amt" id="amt200" value="200" />
+                <label class="amt-btn" for="amt200">200</label>
+
+                <input type="radio" class="amt-radio" name="amt" id="amt500" value="500" />
+                <label class="amt-btn" for="amt500">500</label>
+
+                <input type="radio" class="amt-radio" name="amt" id="amt2000" value="2000" />
+                <label class="amt-btn" for="amt2000">2,000</label>
+
+                <input type="radio" class="amt-radio" name="amt" id="amt5000" value="5000" />
+                <label class="amt-btn" for="amt5000">5,000</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="d-amount">Or Enter Custom Amount (GH₵)</label>
+              <input type="number" id="d-amount" name="amount" placeholder="Enter amount" min="10" value="50" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="d-fname">First Name</label>
+                <input type="text" id="d-fname" name="fname" placeholder="First name" required />
+              </div>
+              <div class="form-group">
+                <label for="d-lname">Last Name</label>
+                <input type="text" id="d-lname" name="lname" placeholder="Last name" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="d-email">Email Address</label>
+              <input type="email" id="d-email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="d-phone">Phone Number</label>
+              <input type="tel" id="d-phone" name="phone" placeholder="+233 __ ___ ____" />
+            </div>
+            <div class="form-group">
+              <label for="d-payment">Payment Method</label>
+              <select id="d-payment" name="payment" required>
+                <option value="">Select method</option>
+                <option>MTN Mobile Money</option>
+                <option>AirtelTigo Money</option>
+                <option>Vodafone Cash</option>
+                <option>Bank Transfer</option>
+                <option>Credit / Debit Card</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="d-message">Dedication or Message (optional)</label>
+              <textarea id="d-message" name="message" placeholder="In memory of… / In honour of…"></textarea>
+            </div>
+            <button type="submit" class="form-submit">Complete Donation</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-name" style="color:var(--white);">Calistos Oasis</div>
+          <p>A Ghanaian NGO delivering clean water, sanitation, and hygiene education to underserved communities since 2013.</p>
+          <div class="social-links">
+            <a class="social-link" href="#" title="Facebook">f</a>
+            <a class="social-link" href="#" title="Twitter / X">X</a>
+            <a class="social-link" href="#" title="Instagram">ig</a>
+            <a class="social-link" href="#" title="LinkedIn">in</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get Involved</h5>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li>Kwabenya Abuom Junction, Accra</li>
+            <li>+233 50 925 4523</li>
+            <li>info@calistosoasis.org</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Calistos Oasis Development NGO. All rights reserved.</span>
+        <span>Built with care for clean water for all.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

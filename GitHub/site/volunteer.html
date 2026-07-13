@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volunteer With Us | Calistos Oasis Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo-wrap" href="index.html">
+        <div class="logo-text-wrap">
+          <div class="logo-name">Calistos Oasis</div>
+          <div class="logo-tagline">Development NGO</div>
+        </div>
+      </a>
+
+      <input type="checkbox" id="navToggle" class="nav-toggle-checkbox" />
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="volunteer.html" class="active">Volunteer</a></li>
+          <li><a href="donate.html" class="nav-donate-btn">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="navToggle" class="hamburger" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <p class="section-label">Get Involved</p>
+      <h1 class="page-hero-title">Volunteer With Us</h1>
+      <p class="page-hero-sub">Your skills can help bring clean water to thousands. Join our team of dedicated volunteers.</p>
+    </div>
+
+    <section class="volunteer-section">
+      <div class="volunteer-grid">
+        <div>
+          <p class="section-label">Opportunities</p>
+          <h2 class="section-title">How You Can Help</h2>
+          <p class="section-body">Whether you are an engineer, educator, health worker, communicator, or simply someone who cares — there is a place for you in the Calistos Oasis family.</p>
+          <div class="opps-list">
+            <div class="opp-card">
+              <div class="opp-title">⚙️ Field Engineers &amp; Technicians</div>
+              <div class="opp-text">Support borehole drilling, pump installation, and equipment maintenance in the field. Civil, mechanical, and electrical engineers welcome.</div>
+            </div>
+            <div class="opp-card">
+              <div class="opp-title">📣 Community Outreach Workers</div>
+              <div class="opp-text">Conduct hygiene awareness sessions, household surveys, and open-defecation-free triggering events in target communities.</div>
+            </div>
+            <div class="opp-card">
+              <div class="opp-title">🎨 Design &amp; Communications</div>
+              <div class="opp-text">Create educational materials, social media content, infographics, and annual reports that amplify our message.</div>
+            </div>
+            <div class="opp-card">
+              <div class="opp-title">💻 Data &amp; Technology</div>
+              <div class="opp-text">Help build and maintain our water-point monitoring dashboard, mobile data-collection tools, and GIS mapping systems.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h3>Volunteer Registration</h3>
+          <form action="#" method="get">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="v-fname">First Name</label>
+                <input type="text" id="v-fname" name="fname" placeholder="Your first name" required />
+              </div>
+              <div class="form-group">
+                <label for="v-lname">Last Name</label>
+                <input type="text" id="v-lname" name="lname" placeholder="Your last name" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="v-email">Email Address</label>
+              <input type="email" id="v-email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="v-phone">Phone Number</label>
+              <input type="tel" id="v-phone" name="phone" placeholder="+233 __ ___ ____" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="v-gender">Gender</label>
+                <select id="v-gender" name="gender">
+                  <option value="">Select gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Prefer not to say</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="v-age">Age</label>
+                <input type="number" id="v-age" name="age" placeholder="e.g. 24" min="16" max="80" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="v-skills">Skills &amp; Expertise</label>
+              <input type="text" id="v-skills" name="skills" placeholder="e.g. Civil Engineering, Teaching, Photography…" />
+            </div>
+            <div class="form-group">
+              <label for="v-availability">Availability</label>
+              <select id="v-availability" name="availability">
+                <option value="">Select availability</option>
+                <option>Weekends only</option>
+                <option>Weekdays only</option>
+                <option>Full-time (3+ months)</option>
+                <option>Short-term project (1–4 weeks)</option>
+                <option>Remote only</option>
+              </select>
+            </div>
+            <button type="submit" class="form-submit">Register as Volunteer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-name" style="color:var(--white);">Calistos Oasis</div>
+          <p>A Ghanaian NGO delivering clean water, sanitation, and hygiene education to underserved communities since 2013.</p>
+          <div class="social-links">
+            <a class="social-link" href="#" title="Facebook">f</a>
+            <a class="social-link" href="#" title="Twitter / X">X</a>
+            <a class="social-link" href="#" title="Instagram">ig</a>
+            <a class="social-link" href="#" title="LinkedIn">in</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get Involved</h5>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li>Kwabenya Abuom Junction, Accra</li>
+            <li>+233 50 925 4523</li>
+            <li>info@calistosoasis.org</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Calistos Oasis Development NGO. All rights reserved.</span>
+        <span>Built with care for clean water for all.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

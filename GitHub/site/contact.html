@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Calistos Oasis Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <header>
+    <div class="nav-inner">
+      <a class="logo-wrap" href="index.html">
+        <div class="logo-text-wrap">
+          <div class="logo-name">Calistos Oasis</div>
+          <div class="logo-tagline">Development NGO</div>
+        </div>
+      </a>
+
+      <input type="checkbox" id="navToggle" class="nav-toggle-checkbox" />
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="donate.html" class="nav-donate-btn">Donate</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <label for="navToggle" class="hamburger" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-hero">
+      <p class="section-label">Get in Touch</p>
+      <h1 class="page-hero-title">Contact Us</h1>
+      <p class="page-hero-sub">We would love to hear from you — whether you have questions, ideas, or just want to say hello.</p>
+    </div>
+
+    <section class="contact-section">
+      <div class="contact-grid">
+        <div>
+          <p class="section-label">Our Office</p>
+          <h2 class="section-title">Find Us</h2>
+          <div class="contact-info-blocks">
+            <div class="info-block">
+              <div class="info-icon">📍</div>
+              <div class="info-content">
+                <h4>Office Address</h4>
+                <p>Calistos Oasis Development<br>Kwabenya Abuom Junction<br>Accra, Ghana</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="info-icon">📞</div>
+              <div class="info-content">
+                <h4>Telephone</h4>
+                <p>+233 50 925 4523 <br>+233 53 443 7216 (Mobile)</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="info-icon">✉️</div>
+              <div class="info-content">
+                <h4>Email</h4>
+                <p>info@calistosoasis.org<br>projects@calistosoasis.org</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <div class="info-icon">🕐</div>
+              <div class="info-content">
+                <h4>Office Hours</h4>
+                <p>Monday – Friday: 8:00 AM – 5:00 PM<br>Saturday: 9:00 AM – 1:00 PM<br>Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-placeholder">
+            <div>🗺️</div>
+            <p>Map — Kwabenya Abuom Junction, Accra, Ghana</p>
+          </div>
+
+          <h3 style="font-weight:700; color:var(--teal-deep); font-size:0.9rem; margin-top:24px; margin-bottom:12px; letter-spacing:0.04em; text-transform:uppercase;">Follow Us</h3>
+          <div class="social-links">
+            <a class="social-link" href="#" title="Facebook">f</a>
+            <a class="social-link" href="#" title="Twitter / X">𝕏</a>
+            <a class="social-link" href="#" title="Instagram">ig</a>
+            <a class="social-link" href="#" title="LinkedIn">in</a>
+            <a class="social-link" href="#" title="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <h3>Send Us a Message</h3>
+          <form action="#" method="get">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="c-name">Full Name</label>
+                <input type="text" id="c-name" name="name" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="c-email">Email Address</label>
+                <input type="email" id="c-email" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="c-phone">Phone Number</label>
+              <input type="tel" id="c-phone" name="phone" placeholder="+233 __ ___ ____" />
+            </div>
+            <div class="form-group">
+              <label for="c-subject">Subject</label>
+              <select id="c-subject" name="subject">
+                <option value="">Select subject</option>
+                <option>General Enquiry</option>
+                <option>Project Partnership</option>
+                <option>Donation / Funding</option>
+                <option>Volunteer Application</option>
+                <option>Media &amp; Press</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="c-message">Message</label>
+              <textarea id="c-message" name="message" placeholder="Write your message here…" required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-name" style="color:var(--white);">Calistos Oasis</div>
+          <p>A Ghanaian NGO delivering clean water, sanitation, and hygiene education to underserved communities since 2013.</p>
+          <div class="social-links">
+            <a class="social-link" href="#" title="Facebook">f</a>
+            <a class="social-link" href="#" title="Twitter / X">X</a>
+            <a class="social-link" href="#" title="Instagram">ig</a>
+            <a class="social-link" href="#" title="LinkedIn">in</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Get Involved</h5>
+          <ul>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li>Kwabenya Abuom Junction, Accra</li>
+            <li>+233 50 925 4523</li>
+            <li>info@calistosoasis.org</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Calistos Oasis Development NGO. All rights reserved.</span>
+        <span>Built with care for clean water for all.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
